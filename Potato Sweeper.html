@@ -1,0 +1,51 @@
+
+<!-- saved from url=(0054)http://localhost:7070/CS102/CS102/lab5/lab52/3.05.html -->
+<html><!-- setting for the style of the front page --><head><meta http-equiv="Content-Type" content="text/html; charset=windows-1252"><style>
+	body {
+		text-align: center; 
+		background-color: #A8A5FD;
+		background-image: url("https://i.imgur.com/BWzC3Tc.png");
+		background-repeat: no-repeat; 
+		background-position: right bottom;
+	}
+	form {
+		display: inline-block;
+	}
+	p{
+		font-size: 20px;
+	}
+	button{
+		margin: 20px;
+		border-radius: 8px;
+		font-size: 15px;
+		padding: 12px 28px;
+		background-color:white;
+		border: 2px solid red;
+	}
+	
+</style>
+
+	<title>Potato Sweeper</title> <!-- webpage name -->
+	
+</head>
+<body><h1 style="text-align:center"> Potato Sweeper 2.0</h1> <!-- title -->
+<h2 style="text-align:center"> Nicholas Hong, Owen Lee, Nikhil Sharma, Zach Chou</h2> <!-- group members -->
+<h3 style="text-align:center">How to play Potato Sweeper</h3> <!-- rules of the game -->
+
+ <!-- explainations -->
+	
+	<div><p>There will be a 9x9 grid with 10 hidden potatoes. You will choose between 81 buttons<br>
+	 and choose between two radio buttons you can choose from, sweep or flag. Sweeping will check what is hidden underneath the coordinates.<br>
+	 If you hit a potato,  you lose. If you hit a space and it shows you a number, that indicates how many number of potatoes is near the <br>
+	 coordinate you had chosen. This may be vertically, horizontally, or diagonally . If the square shows a + sign then there are no <br>
+	 potatoes near the coordinates. Flagging will not check what is underneath the grid and is used for indicating that the potato is at certain coordinates. <br>
+	 The objective is to flag all potatoes.</p></div>
+	<p style="text-align:center"> Would you like to play?</p> <!-- Asking user  -->
+	<form action="http://localhost:7070/cgi-bin/3.05.cgi"> <!--First CGI file --->
+	<button type="submit" name="a" value="Y"> Yes</button><!-- submit button for yes and no -->
+	<button type="submit" name="a" value="N"> No</button>
+	</form>
+
+
+
+</body></html>
